@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 210 11% 25%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 11% 25%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 11% 25%;
+
+    --primary: 350 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 11% 25%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 210 11% 96%;
+    --muted-foreground: 210 11% 45%;
+
+    --accent: 350 85% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 11% 90%;
+    --input: 210 11% 90%;
+    --ring: 350 85% 45%;
+
+    --radius: 0.5rem;
+
+    /* RedLogic Design system colors */
+    --dark-gray: 210 11% 25%;
+    --red-primary: 350 85% 45%;
+    --light-gray: 210 11% 96%;
+    --medium-gray: 210 11% 45%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(350 85% 45%), hsl(350 85% 55%));
+    --gradient-dark: linear-gradient(135deg, hsl(210 15% 25%), hsl(210 11% 25%));
+    --gradient-hero: linear-gradient(135deg, hsl(350 85% 45%), hsl(210 11% 25%));
+    --gradient-red-glow: linear-gradient(180deg, hsl(350 85% 45% / 0), hsl(350 85% 45% / 0.4));
+
+    /* Shadows */
+    --shadow-glow: 0 0 60px hsl(350 85% 45% / 0.3);
+    --shadow-card: 0 4px 20px hsl(210 11% 25% / 0.08);
+    --shadow-lg: 0 20px 60px hsl(210 11% 25% / 0.15);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 210 11% 15%;
+    --foreground: 0 0% 98%;
+
+    --card: 210 11% 20%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 210 11% 20%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 350 85% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 11% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 210 11% 20%;
+    --muted-foreground: 210 11% 65%;
+
+    --accent: 350 85% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 210 11% 20%;
+    --input: 210 11% 20%;
+    --ring: 350 85% 55%;
+
+    --shadow-glow: 0 0 60px hsl(350 85% 55% / 0.5);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-dark {
+    background: var(--gradient-dark);
+  }
+
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+
+  .gradient-red-glow {
+    background: var(--gradient-red-glow);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+
+  .shadow-lg {
+    box-shadow: var(--shadow-lg);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .bg-dark-gray {
+    background-color: hsl(var(--dark-gray));
+  }
+  
+  .bg-red-primary {
+    background-color: hsl(var(--red-primary));
+  }
+  
+  .text-dark-gray {
+    color: hsl(var(--dark-gray));
+  }
+
+  .text-red-primary {
+    color: hsl(var(--red-primary));
+  }
+}
