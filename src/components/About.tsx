@@ -1,5 +1,9 @@
 import { Button } from "@/components/ui/button";
 import { Code2, Network, CheckCircle } from "lucide-react";
+import companyImage1 from "@/assets/images/PHOTO-2025-10-01-04-23-54.jpg";
+import companyImage2 from "@/assets/images/PHOTO-2025-10-01-04-23-55.jpg";
+import companyImage3 from "@/assets/images/PHOTO-2025-10-01-04-38-12.jpg";
+import companyImage4 from "@/assets/images/PHOTO-2025-10-01-04-23-55 (1).jpg";
 
 const About = () => {
   return (
@@ -12,7 +16,7 @@ const About = () => {
               {/* Main company image */}
               <div className="bg-secondary h-96 rounded-lg overflow-hidden">
                 <img 
-                  src="/src/assets/images/PHOTO-2025-10-01-04-23-54.jpg"
+                  src={companyImage1}
                   alt="RedLogic Consulting Office"
                   className="w-full h-full object-cover"
                 />
@@ -110,17 +114,17 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {[
             { 
-              image: "/src/assets/images/PHOTO-2025-10-01-04-23-55.jpg",
+              image: companyImage2,
               title: "Perfect solutions that", 
               subtitle: "business demands" 
             },
             { 
-              image: "/src/assets/images/PHOTO-2025-10-01-04-38-12.jpg",
+              image: companyImage3,
               title: "Perfect solutions that", 
               subtitle: "business demands" 
             },
             { 
-              image: "/src/assets/images/PHOTO-2025-10-01-04-23-55 (1).jpg",
+              image: companyImage4,
               title: "Perfect solutions that", 
               subtitle: "business demands" 
             }

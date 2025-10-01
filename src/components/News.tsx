@@ -1,5 +1,8 @@
 import { User, MessageSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import articleImage1 from "@/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17.jpg";
+import articleImage2 from "@/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17 (1).jpg";
+import articleImage3 from "@/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17 (2).jpg";
 
 const articles = [
   {
@@ -7,7 +10,7 @@ const articles = [
     date: "16 MAR",
     author: "Admin",
     comments: "2 Comments",
-    image: "/src/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17.jpg",
+    image: articleImage1,
   },
   {
     title: "Let's understand the different types of data backups",
@@ -15,14 +18,14 @@ const articles = [
     author: "Admin",
     comments: "2 Comments",
     highlighted: true,
-    image: "/src/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17 (1).jpg",
+    image: articleImage2,
   },
   {
     title: "Let's understand the different types of data backups",
     date: "16 MAR",
     author: "Admin",
     comments: "2 Comments",
-    image: "/src/assets/Article-iMAGES/PHOTO-2025-10-01-04-45-17 (2).jpg",
+    image: articleImage3,
   },
 ];
 

@@ -1,26 +1,30 @@
 import { ArrowRight } from "lucide-react";
+import serviceCloud from "@/assets/service-cloud.jpg";
+import serviceDev from "@/assets/service-dev.jpg";
+import serviceSecurity from "@/assets/service-security.jpg";
+import projectImage1 from "@/assets/images/PHOTO-2025-10-01-04-23-54 (1).jpg";
 
 const projects = [
   {
     title: "Cloud Infrastructure",
     category: "CLOUD / SERVICES",
-    image: "/src/assets/service-cloud.jpg",
+    image: serviceCloud,
   },
   {
     title: "Software Development",
     category: "DEVELOPMENT / SOLUTIONS",
     highlighted: true,
-    image: "/src/assets/service-dev.jpg",
+    image: serviceDev,
   },
   {
     title: "Security Systems",
     category: "SECURITY / PROTECTION",
-    image: "/src/assets/service-security.jpg",
+    image: serviceSecurity,
   },
   {
     title: "Enterprise Solutions",
     category: "BUSINESS / INTEGRATION",
-    image: "/src/assets/images/PHOTO-2025-10-01-04-23-54 (1).jpg",
+    image: projectImage1,
   },
 ];
 
