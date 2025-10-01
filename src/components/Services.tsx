@@ -3,29 +3,29 @@ import { Monitor, Settings, Shield, Palette, Database } from "lucide-react";
 const services = [
   {
     icon: Monitor,
-    title: "Product Development",
-    description: "Lorem Ipsum has been the industry text ever since then.",
+    title: "Software Development",
+    description: "Custom software solutions and enterprise applications built with cutting-edge technologies to streamline your business operations.",
   },
   {
     icon: Settings,
-    title: "Digital Marketing",
-    description: "Lorem Ipsum has been the industry text ever since then.",
+    title: "Cloud Solutions",
+    description: "Scalable cloud infrastructure and migration services to optimize performance and reduce operational costs.",
     highlighted: true,
   },
   {
     icon: Shield,
-    title: "Security System",
-    description: "Lorem Ipsum has been the industry text ever since then.",
+    title: "Cybersecurity",
+    description: "Comprehensive security solutions including network protection, data encryption, and threat monitoring.",
   },
   {
     icon: Palette,
-    title: "UI/UX Designing",
-    description: "Lorem Ipsum has been the industry text ever since then.",
+    title: "IT Consulting",
+    description: "Strategic technology consulting to align your IT infrastructure with business goals and objectives.",
   },
   {
     icon: Database,
-    title: "Data Analysis",
-    description: "Lorem Ipsum has been the industry text ever since then.",
+    title: "Data Management",
+    description: "Advanced data analytics, database optimization, and business intelligence solutions for informed decision-making.",
   },
 ];
 
@@ -62,7 +62,7 @@ const Services = () => {
           </div>
           
           <p className="text-white/70 max-w-md">
-            There are many variations of passages of available but majority have suffered alteration in some form, by humour or randomised words which don't look even slightly believable.
+            We provide comprehensive IT solutions tailored to your business needs, from cloud infrastructure to cybersecurity, ensuring your technology drives growth and efficiency.
           </p>
         </div>
 

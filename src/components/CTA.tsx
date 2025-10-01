@@ -13,27 +13,27 @@ const CTA = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 leading-tight">
-                We're Ready Develop Your Site!
+                Ready to Transform Your Business with IT Solutions?
               </h2>
               <ul className="space-y-4 text-white">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" />
-                  <span>Exploring version oflorem veritatis proin</span>
+                  <span>Expert consultation for enterprise-level IT infrastructure</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" />
-                  <span>Auctor aliquet aenean simply free text veritatis quis</span>
+                  <span>Custom software development and cloud solutions</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-6 h-6 flex-shrink-0 mt-0.5" />
-                  <span>Consequat ipsum nec lorem sagittis sem nibh.</span>
+                  <span>24/7 security monitoring and network protection</span>
                 </li>
               </ul>
             </div>
             
             <div className="flex justify-end">
               <Button size="lg" className="bg-white text-dark-gray hover:bg-white/90 px-10 py-6 rounded uppercase tracking-wide font-semibold">
-                Learn More
+                Get Started
               </Button>
             </div>
           </div>
@@ -90,13 +90,13 @@ const CTA = () => {
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl mx-auto text-center">
-            <p className="text-white/90 mb-3 text-sm">We're here to help to grow your business.</p>
+            <p className="text-white/90 mb-3 text-sm">Partner with RedLogic for cutting-edge technology solutions.</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">
-              Looking for the Best IT Business Solutions?
+              Ready to Scale Your Business with Advanced IT Solutions?
             </h2>
             
             <Button size="lg" className="bg-white text-dark-gray hover:bg-white/90 px-10 py-6 rounded uppercase tracking-wide font-semibold">
-              Learn More
+              Contact Us Today
             </Button>
           </div>
         </div>
